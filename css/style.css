@@ -240,6 +240,23 @@ body {
   font-size: 14px;
   background-color: #212124;
 }
+.btn-secondary:hover{
+  background-color: #27272a;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-transition{
+  margin-top: 40px;
+  width: auto;
+  color: #fff;
+  border: 1px solid #2a2a3e;
+}
+.btn-transition:hover{
+  background-color: #27272a;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
 
 .btn-tertiary {
   border: 1px solid #212124 !important;
@@ -526,6 +543,54 @@ body {
   border-radius: 20px;
   font-size: 12px;
 }
+
+/* form css */
+.contact-box{
+        width:600px;
+    }
+
+    label{
+        font-size:16px;
+        margin-bottom:8px;
+        display:block;
+        color:#cfcfcf;
+    }
+
+    input, textarea{
+        width:100%;
+        background:#111214;
+        border:1px solid #292a2d;
+        border-radius:6px;
+        padding:14px;
+        color:#fff;
+        font-size:15px;
+        margin-bottom:25px;
+    }
+
+    input::placeholder,
+    textarea::placeholder{
+        color:#6b6b6b;
+    }
+
+    textarea{
+        height:250px;
+        resize:none;
+    }
+
+    button{
+        background:white;
+        color:black;
+        border:none;
+        padding:14px 35px;
+        font-size:16px;
+        font-weight:500;
+        border-radius:40px;
+        cursor:pointer;
+        display:flex;
+        align-items:center;
+        gap:8px;
+        margin:0 auto;
+    }
 
 /* PREVIEW BUTTON */
 .preview-btn {
