@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const navLinks = document.querySelectorAll(".nav-links a");
   const sections = document.querySelectorAll("section[id]");
 
-  // Smooth Scroll (Click)
+  // Smooth Scroll (Click)git status
+
   navLinks.forEach(link => {
     link.addEventListener("click", function(e) {
       e.preventDefault();
